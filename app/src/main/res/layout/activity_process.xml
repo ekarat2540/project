@@ -14,7 +14,7 @@
         <TextView
                 android:text="@={myName.nickname}"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/date_text"
+                android:layout_height="wrap_content" android:id="@+id/dateText"
                 android:textAlignment="center" android:visibility="gone" android:background="@color/colorAccent"
                 />
         <EditText

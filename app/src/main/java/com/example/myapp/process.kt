@@ -57,7 +57,7 @@ class process : AppCompatActivity() {
     }
     private fun date(view: View){
         binding.apply {
-            myName?.nickname = dateEdit.text.toString()
+            myName?.dateQ = dateEdit.text.toString()
             dateEdit.visibility = View.GONE
             dateText.visibility = View.VISIBLE
 
